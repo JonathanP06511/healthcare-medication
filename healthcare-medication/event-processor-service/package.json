@@ -1,0 +1,14 @@
+{
+    "name": "event-processor-service",
+    "version": "1.0.0",
+    "description": "Microservicio para procesar eventos de medicamentos",
+    "main": "src/index.js",
+    "scripts": {
+        "start": "node src/index.js"
+    },
+    "dependencies": {
+        "dotenv": "^16.4.5",
+        "kafkajs": "^2.2.4",
+        "mongodb": "^4.17.2"
+    }
+}
